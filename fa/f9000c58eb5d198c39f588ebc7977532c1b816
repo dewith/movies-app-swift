@@ -1,0 +1,12 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "faf9000c58eb5d198c39f588ebc7977532c1b816",
+  "prompts": {},
+  "humans": {
+    "h_1a682199e8fbd9": {
+      "author": "Dewith <dewithmiramon@gmail.com>"
+    }
+  }
+}
