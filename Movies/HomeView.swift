@@ -35,25 +35,25 @@ struct HomeView: View {
 
                     HStack {
                         Button {
-                            
+
                         } label: {
                             Text(Constants.playString)
                                 .regularButtonStyle()
                         }
-                        
+
                         Button {
-                            
+
                         } label: {
                             Text(Constants.downloadString)
                                 .regularButtonStyle()
                         }
                     }
-                    
+
                     HorizontalListView(header: Constants.trendingMovieString)
                     HorizontalListView(header: Constants.trendingTVString)
                     HorizontalListView(header: Constants.topRatedMovieString)
                     HorizontalListView(header: Constants.topRatedTVString)
-                    
+
                 }
             }
         }

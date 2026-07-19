@@ -47,3 +47,5 @@ playground.xcworkspace
 # Secrets / local config
 *.xcconfig.local
 Secrets.swift
+
+APIConfig.json
