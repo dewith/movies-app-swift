@@ -24,7 +24,10 @@ class ViewModel {
         homeStatus = .fetching
 
         do {
-            trendingMovies = try await dataFetcher.fetchTitles(for: "movie")
+            trendingMovies = try await dataFetcher.fetchTitles(
+                for: "movie",
+                by: "trending"
+            )
             Constants.addPosterPath(to: &trendingMovies)
             homeStatus = .success
         } catch {
